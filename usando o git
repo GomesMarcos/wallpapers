@@ -1,0 +1,12 @@
+para subir as coisas no git:
+    cd /home/<usuário>/<diretório_de_origem>
+    
+    git init
+    
+    git remote add origin <endereço no git>
+    git status
+    git add .
+    git commit -m "Escreva um comentário qualquer..."
+    git checkout master
+    git push origin master
+    
